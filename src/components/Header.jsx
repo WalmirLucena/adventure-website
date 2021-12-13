@@ -17,7 +17,7 @@ function Header(){
         }
 
     return (
-        <header className="header">
+        <header className="header" onScroll={handleclickClose}>
         <a href="hashtag" className="logo"><i className="fas fa-hiking">{hiking}</i>Explore Amazonia</a>
         <nav className={active? 'navbar active': 'navbar'}>
             <div id="nav-close" className="fas fa-times" onClick={handleclickClose}>{times}</div>
