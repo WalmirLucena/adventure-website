@@ -1,9 +1,9 @@
 import Header from "../components/Header";
+import '../style.scss';
 
 function Home(){
   return (
     <div>
-      <h1>oi</h1>
       <Header/>
     </div>
     )
