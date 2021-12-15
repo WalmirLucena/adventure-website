@@ -45,11 +45,31 @@ html {
 
 }
 
+section{
+  padding:5rem 9%;
+}
+
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  border: $border;
+  color: $black;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+
+  &:hover{
+    background: $black;
+    color: $white;
+  }
+}
+
 .header {
   align-items: center;
   display: flex;
   left: 0;
-  padding: 2rem 9%;
+  padding: 2rem 6%;
   position: fixed;
   right: 0;
   top: 0;
@@ -71,6 +91,7 @@ html {
       color: $black;
       font-size: 1.7rem;
       margin-left: 2rem;
+      font-weight: bolder;
 
       &:hover {
         color: $green;
@@ -90,10 +111,11 @@ html {
     color: $black;
     cursor: pointer;
     font-size: 2.5rem;
+    font-weight: bolder;
     margin-left: 2rem;
 
     &:hover {
-      color: $black;
+      color: $green;
     }
   }
 
@@ -114,7 +136,11 @@ html {
   top: 0;
   z-index: 10000;
   width: 100%;
-  transform: translateY(-1);
+  transform: translateY(-110%);
+
+  &.active{
+    transform: translateY(0%);
+  }
 
   #close-search{
     position: absolute;
@@ -129,7 +155,7 @@ html {
     }
   }
   form{
-    width: 70rem;
+    width: 70vw;
     margin: 0 2rem;
     padding-bottom: 2rem;
     border-bottom: .2rem solid $white;
@@ -161,6 +187,55 @@ html {
   }
 }
 
+.home{
+  padding: 0;
+  .box{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content: flex-end;
+    padding: 2rem 9%;
+  
+    &.one{
+      background: url("images/home-bg-1.jpg") no-repeat;
+      justify-content: flex-end;
+    }
+    &.second{
+      background: url("images/home-bg-2.jpg") no-repeat;
+      justify-content: flex-start;      
+    }
+    &.third{
+      background: url("images/home-bg-3.jpg") no-repeat;
+      
+    }
+
+    .content{
+      width: 50rem;
+
+      span{
+        font-size: 4rem;
+        color: $black;
+      }
+      h3{
+        font-size: 6rem;
+        color: $green;
+        padding-top: .5rem;
+        text-transform: uppercase;
+        z-index: 10;
+
+      }
+      p{
+        line-height: 2;
+        color: $black;
+        font-size: 1.5rem;
+        padding-top: 1rem 0;
+      }
+    }
+  }
+}
+
 
 
 
@@ -168,6 +243,10 @@ html {
 @media (max-width:1200px) {
   .header {
     padding: 2rem;
+  }
+
+  section{
+    padding:3rem 2rem;
   }
 }
 
