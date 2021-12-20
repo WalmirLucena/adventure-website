@@ -3,6 +3,7 @@ import SearchForm from "../components/SearchForm";
 import HomeSection from "../components/HomeSection";
 import '../style.scss';
 import CategorySection from "../components/CategorySection";
+import PackagesSection from "../components/PackagesSection";
 
 function Home(){
   return (
@@ -12,6 +13,7 @@ function Home(){
       <main>
         <HomeSection/>
         <CategorySection/>
+        <PackagesSection/>
       </main>
     </>
     )

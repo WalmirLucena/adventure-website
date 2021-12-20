@@ -5,7 +5,7 @@ import category4 from "../images/category-4.jpg";
 
 export default function CategorySection () {
     return (
-        <section className="category">
+        <section className="category" id="category">
             <h1 className="heading">Aventure-se!</h1>
             <div className="box-container">
                 <div className="box">
