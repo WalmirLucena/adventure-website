@@ -48,10 +48,10 @@ export default function HomeSection () {
                     
                     <div className="box one">
                         <div className="content">
-                            <span>Never Stop</span>
-                            <h3>Exploring</h3>
-                            <p>explore a amazonia</p>
-                            <a href="hashtag" className="btn">Get Started</a>
+                            <span>Nunca pare de</span>
+                            <h3>Explorar</h3>
+                            <p>conheça a amazonia</p>
+                            <a href="hashtag" className="btn">Inicie sua Jornada</a>
                         </div>
 
                     </div>
@@ -61,10 +61,10 @@ export default function HomeSection () {
                     <div className="slide" data-swiper-autoplay="1000">
                         <div className="box second" >
                             <div className="content">
-                                <span>make tour</span>
-                                <h3>Exploring</h3>
-                                <p>explore a amazonia</p>
-                                <a href="hashtag" className="btn">Get Started</a>
+                                <span>Faça trilhas</span>
+                                <h3>Sensacionais</h3>
+                                <p>explore novas trilhas</p>
+                                <a href="hashtag" className="btn">Comece já!</a>
                             </div>
                         </div>
 
@@ -75,10 +75,10 @@ export default function HomeSection () {
                     <div className="slide" data-swiper-autoplay="1000">
                         <div className="box third">
                             <div className="content">
-                                <span>Explore the</span>
-                                <h3>Exploring</h3>
+                                <span>Descubra paisagens</span>
+                                <h3>Incríveis</h3>
                                 <p>explore a amazonia</p>
-                                <a href="hashtag" className="btn">Get Started</a>
+                                <a href="hashtag" className="btn">Descubra já!</a>
                             </div>
 
                         </div>

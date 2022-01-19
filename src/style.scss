@@ -9,8 +9,8 @@
   outline: none;
   text-decoration: none;
   text-transform: capitalize;
-  transform: .2s linear;
 }
+
 
 $green:#219150;
 $black:#10221b;
@@ -31,18 +31,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
   
-  &::-webkit-scrollbar {
-    width: 1rem;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: white;
-  }
-
-  &::-webkit-slider-thumb {
-    background: $black;
-  }
-
 }
 
 section{
@@ -160,9 +148,11 @@ section{
 }
 
 .category{
+  background: $light-bg;
+
   .box-container{
     @include grid(25rem);
-
+    
     .box{
       text-align: center;
       padding:2rem;
@@ -378,7 +368,7 @@ section{
      img{
        height: 100%;
        width: 100%;
-       object-fit: cover;
+       object-fit: scale-down;
        border-radius: .5rem;
      }
 
@@ -407,6 +397,142 @@ section{
   }
 }
 
+.services {
+  background: $light-bg;
+
+  .box-container{
+    @include grid(30rem);
+
+    .box{
+      text-align: center;
+      padding: 2rem;
+      border: $border;
+      border-radius: .5rem;
+      box-shadow: $box-shadow;
+      background: $white;
+
+      &:hover {
+        background: $black;
+
+        img{
+          filter: invert(1);
+        }
+        p{
+          color: $white;
+        }
+        .btn{
+          border-color: $white;
+          color: $white;
+          &:hover{
+            background: $white;
+            color:$black;
+          }
+        }
+      }
+
+      img{
+        height: 10rem;
+        margin-bottom: 1rem;
+        
+      }
+      h3{
+        font-size: 2rem;
+        color: $green;
+      }
+      p{
+        font-size: 1.5rem;
+        color: $black;
+        padding: 1rem 0;
+        line-height: 2rem;
+      }
+    }
+  }
+}
+
+.package-container{
+  background: $light-bg;
+  margin-top: 6rem;
+  @include grid(100rem);
+  justify-items: center;
+  .image{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    height: 40rem;
+    margin: 4rem 2rem 0rem 2rem;
+    border-radius: 4rem;   
+  }
+  .package-content{
+    margin: 2rem 8rem;
+    padding: 1rem;
+
+    h1,h3{
+      font-size: 2rem;
+      color: $green;
+    }
+    p{
+      font-size: 1.5rem;
+      color: $black;
+      padding: 1rem 0;
+      line-height: 2rem;
+      text-transform: none;
+      text-align: justify;
+    }    
+  }
+  
+}
+
+.footer{
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./images/footer-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  .box-container{
+    @include grid(30rem);
+
+    .box{
+
+      h3{
+        font-size: 2rem;
+        padding: 1.5rem 0;
+        color: $white;
+      }
+
+      a{
+        display: block;
+        font-size: 1.4rem;
+        color: $white;
+        padding: 1rem 0;
+      }
+
+      i{
+        color: $green;
+        padding-right: .5rem;
+      }
+      &:hover{
+        color: $green;
+
+        i{
+          padding-right: 2rem;
+        }
+      }
+    }
+
+    .credit{
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 2rem;
+      color: $white;
+      span{
+        color: $green;
+      }
+    }
+
+
+  }
+}
 
 
 
