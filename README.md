@@ -1,4 +1,4 @@
-### Explore Amazonia Website
+# Explore Amazonia Website
 
 Esse projeto consiste num Website de Aventura na Amazônia, onde apresento algumas opções de turismo para quem não conhece a região. A aplicação Web foi contruída de forma responsiva as telas utilizando React, Context API, Sass. 
 
