@@ -13,6 +13,7 @@ Neste projeto, é necessário as seguintes habilidades para a sua execução:
   - Utilizar o _React Hook useEffect_
   - Utilizar o _Sass_ para reutilização de código
   - Utilizar o _Font Awesome_ para o uso de ícones
+  - Utilizar o _Swiper_ para transições aceleradas por hardware
 
 
 # Dependências
@@ -39,3 +40,6 @@ Biblioteca de ícones e kit de ferramentas necessários. Utilizado em ícones pr
 
 Se você quiser usar estilos de ícones adicionais, você precisará instalar os três comandos acima também.
 
+### `npm i swiper`
+
+O Swiper permite o controle deslizante de toque moderno, usado tanto em dispositivos moveis e aplicativos Web.

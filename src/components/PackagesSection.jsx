@@ -20,7 +20,7 @@ export default function PackagesSection (){
                       <h3>Pacote Lagoa Azul, Gruta da Judeia, Caverna  do Maroaga</h3>
                       <p>Que tal conhecer essas 3 maravilhas da nossa Amazônia em um único dia?</p>
                       <div className="price">R$120 - R$230</div>
-                      <Link to="/pacotes/01"><a href="hastag" className="btn">Reserve já!</a></Link>
+                      <Link to="/pacotes/01"><a href="/pacotes/01" className="btn">Reserve já!</a></Link>
                   </div>
               </div>
 
@@ -32,7 +32,7 @@ export default function PackagesSection (){
                       <h3>Pacotes Cachoeira da Asframa</h3>
                       <p>Conheça essa cachoeira linda, de fácil acesso e ótima para banho!</p>
                       <div className="price">R$70</div>
-                      <Link to="/pacotes/02"><a href="hastag" className="btn">Reserve já!</a></Link>
+                      <Link to="/pacotes/02"><a href="pacotes/02" className="btn">Reserve já!</a></Link>
                   </div>
                   
               </div>
@@ -44,7 +44,7 @@ export default function PackagesSection (){
                   <h3>Pacotes paredão das Lajes, fervedouro, Igarapé de águas vermelhas e corredeira do Urubui</h3>
                       <p>Que tal conhecer essas 5 maravilhas da nossa Amazônia em um único dia? Então Partiu Figueiredo☀️☀️</p>
                       <div className="price">R$120 - R$210</div>
-                      <Link to="/pacotes/03"><a href="hastag" className="btn">Reserve já!</a></Link>
+                      <Link to="/pacotes/03"><a href="/pacotes/03" className="btn">Reserve já!</a></Link>
                   </div>
             </div>
             <div className="box">
@@ -55,7 +55,7 @@ export default function PackagesSection (){
                       <h3>Excursão Aqua Mark e Lago do Robertinho</h3>
                       <p>Venha desfrutar de um dia agradável em um dos mais lindos cenários naturais da savana roraimense!</p>
                       <div className="price">R$470 - R$490</div>
-                      <Link to="/pacotes/04"><a href="hastag" className="btn">Reserve já!</a></Link>
+                      <Link to="/pacotes/04"><a href="/pacotes/04" className="btn">Reserve já!</a></Link>
                   </div>
             </div>
             <div className="box">
@@ -66,7 +66,7 @@ export default function PackagesSection (){
                       <h3>Pacote Safari Amazônico</h3>
                       <p>Vamos conhecer um poucos mais da nossa terra nesse passeio incrivel em meio a floresta amazônica?</p>
                       <div className="price">R$100</div>
-                      <Link to="/pacotes/05"><a href="hastag" className="btn">Reserve já!</a></Link>
+                      <Link to="/pacotes/05"><a href="/pacotes/05" className="btn">Reserve já!</a></Link>
                   </div>
             </div>
             <div className="box">
