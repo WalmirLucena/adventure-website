@@ -22,16 +22,20 @@ function Header(){
         setActive(false);
         setBackground(false); 
         }
+    useEffect(()=> {
+        window.scrollTo(0, 0);
+    },[]);
 
     
 
     useEffect(() => {
-        if(pathname.includes('/pacotes') ){
+        if(pathname.includes('/pacotes') || pathname.includes('/categorias')){
             setBackground(true);
-        }
-        const handleScroll =() => {
+        } 
+        const handleScroll = () => {
+
             const position = window.pageYOffset;
-            if(position>0 || pathname.includes('/pacotes') ){
+            if(position > 0 /* || pathname.includes('/pacotes') */ ){
                 setBackground(true);
             } else {
                 setBackground(false); 

@@ -5,8 +5,11 @@ import image1 from "../images/category-1.jpg";
 import image2 from "../images/category-2.jpg";
 import image3 from "../images/category-3.jpg";
 import image4 from "../images/category-4.jpg";
+import data from "../data";
 
 export default function Categorias () {
+    const posts = (data()).trilhas;
+    console.log(posts);
     const { pathname } = useLocation();
     if(pathname.includes('/categorias/trilhas')){
     return (
@@ -15,7 +18,15 @@ export default function Categorias () {
             <div className="categorie-container">
             <img src={image1} alt="categorie-1" className="image" />
             <div className="categorie-content">
-            <h1>trilha</h1>
+            {posts.map((item) => (  
+                <div key={item.title}> 
+                    <h1>{item.title}</h1>
+                    <p>{item.content}</p>
+                    <ul>
+                    {item.opcoes.map((i)=> <li>{i}</li> )}
+                    </ul>
+                </div>
+            ))}                
             </div>
             </div>
             <Footer/>
