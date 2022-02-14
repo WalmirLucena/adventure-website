@@ -23,8 +23,8 @@ $box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
   gap:1.5rem;
-} 
-
+}
+ 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -452,15 +452,24 @@ section{
 .package-container{
   background: $light-bg;
   margin-top: 6rem;
-  @include grid(100rem);
-  justify-items: center;
-  .image{
-    display: grid;
+   @include grid(65rem);
+
+  justify-content: center;
+  text-align: center;
+
+   .image-container{
+    display: flex;
+    flex-flow: column;
     align-items: center;
     text-align: center;
-    justify-items: center;
     height: 40rem;
-    margin: 4rem 2rem 0rem 2rem;
+    justify-items: center;
+   } 
+ 
+  .image{   
+    min-height: 20rem;
+    height: 40rem;
+    margin: 4rem 2rem 2rem 2rem;
     border-radius: 4rem;   
   }
   .package-content{
@@ -486,23 +495,36 @@ section{
 .categorie-container{
   background: $light-bg;
   margin-top: 6rem;
-  @include grid(100rem);
-  justify-items: center;
-  .image{
-    display: grid;
+  @include grid(65rem);
+
+  justify-content: center;
+  text-align: center;
+
+  .image-container{
+    display: flex;
+    flex-flow: column;
     align-items: center;
     text-align: center;
-    justify-items: center;
     height: 40rem;
-    margin: 4rem 2rem 0rem 2rem;
+    justify-items: center;
+   }
+
+  .image{
+    min-height: 20rem;
+    height: 40rem;
+    margin: 4rem 2rem 2rem 2rem;
     border-radius: 4rem;   
   }
   .categorie-content{
     margin: 2rem 8rem;
     padding: 1rem;
 
-    h1,h3{
+    h1{
       font-size: 2rem;
+      color: $green;
+    }
+    h3{
+      font-size: 1.6rem;
       color: $green;
     }
     p{
@@ -512,6 +534,13 @@ section{
       line-height: 2rem;
       text-transform: none;
       text-align: justify;
+    }
+    ul{
+      margin-left: 1.5rem;
+    }
+    li {
+      font-size: 1.3rem;
+      list-style-type: circle;
     }    
   }
   
@@ -650,6 +679,7 @@ section{
 
       #nav-close {
         display: block;
+        flex-flow: co;
         position: absolute;
         right: 2rem;
         top: 1rem;
@@ -662,11 +692,44 @@ section{
       display: flex;
       flex-flow: row;
     }
+
+    .categorie-container{
+      display: flex;
+      @include grid(10rem);
+      font-size: 2rem
+    }
+
+    .package-container{
+      @include grid(30rem);
+
+      .package-content{
+        margin: 0;
+        padding: 0;
+      }
+    }
   }
 }
 
 @media (max-width:450px) {
   html {
-    font-size: 70%;
+    font-size: 50%;
+  }
+
+  .package-container{
+    @include grid(30rem);
+
+    .package-content{
+      margin: 2rem;
+      padding: 2rem;
+    }
+  }
+  .footer{
+    h3{
+      font-size: 6rem;
+    }
+    a{
+      font-size: 2rem;
+    }
+    
   }
 }

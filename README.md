@@ -43,3 +43,5 @@ Se você quiser usar estilos de ícones adicionais, você precisará instalar os
 ### `npm i swiper`
 
 O Swiper permite o controle deslizante de toque moderno, usado tanto em dispositivos moveis e aplicativos Web.
+
+![Alt text](.src/images/capture1.png "Home Section")

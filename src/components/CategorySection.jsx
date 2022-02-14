@@ -12,7 +12,7 @@ export default function CategorySection () {
                 <div className="box">
                     <img src={category1} alt=""/>
                     <h3>Trilhas</h3>
-                    <p>vamos pular?</p>
+                    <p>vamos trilhar?</p>
                     <Link to="/categorias/trilhas"><a href="/categorias/trilhas" className="btn">Leia mais</a></Link>
                 </div>
 
@@ -26,14 +26,14 @@ export default function CategorySection () {
                 <div className="box">
                     <img src={category3} alt=""/>
                     <h3>Stand Up Paddle</h3>
-                    <p>vamos pular?</p>
+                    <p>Venha curtir um SUP no rio!</p>
                     <Link to="/categorias/stand-up-paddle"><a href="/categorias/stand-up-paddle" className="btn">Leia mais</a></Link>
                 </div>
 
                 <div className="box">
                     <img src={category4} alt=""/>
                     <h3>Canoagem</h3>
-                    <p>vamos pular?</p>
+                    <p>Conheça lagos na amazônia!</p>
                     <Link to="/categorias/canoagem"><a href="/categorias/canoagem" className="btn">Leia mais</a></Link>
                 </div>
 

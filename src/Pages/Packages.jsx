@@ -18,7 +18,9 @@ export default function Packages () {
             <main>
             <Header/>
             <div className="package-container">
+            <div className="image-container">
             <img src={Image1} alt="pacote-1" className="image" />
+            </div>
             <div className="package-content">
             <h1>Lagoa Azul</h1>
             <p>A Lagoa Azul é uma bela lagoa de águas azuis localizada em Presidente Figueiredo, a cerca de duas horas de Manaus. Sua coloração azul logo chamou a atenção e hoje ela recebe muitas visitas todos os dias.
@@ -52,7 +54,9 @@ export default function Packages () {
             <main>
             <Header/>
             <div className="package-container">
+            <div className="image-container">
             <img src={Image2} alt="pacote-2" className="image" />
+            </div>
             <div className="package-content">
             <h1>Cachoeira da Asframa</h1>
             <p>Localizada no município de Presidente Figueiredo no estado do Amazonas, a Cachoeira Asframa possui um local tranquilo com restaurante, bosque, campo de futebol, tornando-se ótimo para viagens em família, com os amigos e para levar a criançada.Dentre as várias cachoeiras de Presidente Figueiredo, a Cachoeira Asframa é a melhor, principalmente quem vai com crianças, pois possui local limpo, de fácil acesso, apoio de bar e restaurante, ambiente familiar, e pocinhos de piscina, tornando um lugar tranquilo, agradável e relaxante para se visitar. </p>
@@ -72,7 +76,9 @@ export default function Packages () {
             <main>
             <Header/>
             <div className="package-container">
+            <div className="image-container">
             <img src={Image3} alt="pacote-3" className="image" />
+            </div>
             <div className="package-content">
             <h1>Lagoa Azul</h1>
             <p>A Lagoa Azul é uma bela lagoa de águas azuis localizada em Presidente Figueiredo, a cerca de duas horas de Manaus. Sua coloração azul logo chamou a atenção e hoje ela recebe muitas visitas todos os dias.
@@ -106,7 +112,9 @@ export default function Packages () {
             <main>
             <Header/>
             <div className="package-container">
+            <div className="image-container">
             <img src={Image4} alt="pacote-4" className="image" />
+            </div>
             <div className="package-content">
             <h1>Lago do Robertinho</h1>
             <p>O Lago do Robertinho é um balneário de águas transparentes no meio do cerrado de Roraima. Localizado a 50 km da capital Boa Vista, o lago atrai muitas pessoas em busca da beleza e suas opções de lazer.
@@ -135,7 +143,9 @@ export default function Packages () {
             <main>
             <Header/>
             <div className="package-container">
+            <div className="image-container">
             <img src={Image5} alt="pacote-5" className="image" />
+            </div>
             <div className="package-content">
             <h1>Safári Amazônico</h1>
             <p>Navegando pelo Rio Negro acima, em direção à plataforma flutuante, cruzaremos a Ponte Jornalista Phelippe Daou, mais conhecida como Ponte Rio Negro com um comprimento de 3.595 metros. Chegando na plataforma flutuante de contemplação dos botos cor-de-rosa poderemos nadar com esses dóceis animais e observá-los sendo alimentados por um ribeirinho legalizado pelo Ibama. Os grupos são separados de 10 em 10, seguindo as regras impostas pelos órgãos ambientais, e assim todos poderão se divertir, contemplando essa maravilha da natureza.</p>
@@ -164,7 +174,9 @@ export default function Packages () {
             <main>
             <Header/>
             <div className="package-container">
+            <div className="image-container">
             <img src={Image6} alt="pacote-6" className="image" />
+            </div>
             <div className="package-content">
             <h1>Serra do Tepequém</h1>
             <p>Nem tudo o que a natureza mostra nós percebemos. Nem tudo o que ela esconde deixamos de perceber. Tudo depende de ter atenção e olhos voltados para o que nos rodeia e integrar-se à natureza. Em Roraima não há como não ver, a uma pequena distância e por uma estrada bem acessível, um dos mais belos pontos turísticos do Estado: A Serra do Tepequém. 

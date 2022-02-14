@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
 import 'swiper/swiper.min.css';
 import 'swiper/modules/pagination/pagination.min.css';
@@ -51,7 +52,7 @@ export default function HomeSection () {
                             <span>Nunca pare de</span>
                             <h3>Explorar</h3>
                             <p>conheça a amazonia</p>
-                            <a href="hashtag" className="btn">Inicie sua Jornada</a>
+                            <Link to="/pacotes/06"><a href="hashtag" className="btn">Inicie sua Jornada</a></Link>
                         </div>
 
                     </div>
@@ -64,7 +65,7 @@ export default function HomeSection () {
                                 <span>Faça trilhas</span>
                                 <h3>Sensacionais</h3>
                                 <p>explore novas trilhas</p>
-                                <a href="hashtag" className="btn">Comece já!</a>
+                                <Link to="/pacotes/01"><a href="hashtag" className="btn">Comece já!</a></Link>
                             </div>
                         </div>
 
@@ -78,7 +79,7 @@ export default function HomeSection () {
                                 <span>Descubra paisagens</span>
                                 <h3>Incríveis</h3>
                                 <p>explore a amazonia</p>
-                                <a href="hashtag" className="btn">Descubra já!</a>
+                                <Link to="/pacotes/03"><a href="hashtag" className="btn">Descubra já!</a></Link>
                             </div>
 
                         </div>
