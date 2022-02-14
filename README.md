@@ -44,4 +44,20 @@ Se você quiser usar estilos de ícones adicionais, você precisará instalar os
 
 O Swiper permite o controle deslizante de toque moderno, usado tanto em dispositivos moveis e aplicativos Web.
 
+## Home Section
+
+A página foi dividida em seções, a primeira é a home section, nela está contida o Header e os slides deslizantes (tanto pelo botão quando pelo touch de telas).
+
 ![Home Section](src/images/capture1.png "Home Section")
+
+## Category Section
+
+[Category Section](src/images/capture2.png "Category Section")
+
+## Packages Section
+
+![Packages Section](src/images/capture3.png "Packages Section")
+
+## Services Section and Footer
+
+![Services Section](src/images/capture4.png "Services Section")
