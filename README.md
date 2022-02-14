@@ -44,4 +44,4 @@ Se você quiser usar estilos de ícones adicionais, você precisará instalar os
 
 O Swiper permite o controle deslizante de toque moderno, usado tanto em dispositivos moveis e aplicativos Web.
 
-![Alt text](.src/images/capture1.png "Home Section")
+![Home Section](src/images/capture1.png "Home Section")
