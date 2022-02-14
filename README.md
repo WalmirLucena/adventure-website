@@ -52,7 +52,7 @@ A página foi dividida em seções, a primeira é a home section, nela está con
 
 ## Category Section
 
-[Category Section](src/images/capture2.png "Category Section")
+![Category Section](src/images/capture2.png "Category Section")
 
 ## Packages Section
 
